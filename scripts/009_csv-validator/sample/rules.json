@@ -1,0 +1,7 @@
+{
+  "주문번호": {"required": true, "regex": "A\\d{3}"},
+  "수량": {"required": true, "type": "int", "min": 1, "max": 100},
+  "주문일": {"required": true, "type": "date"},
+  "상태": {"allowed": ["완료", "취소", "대기"]},
+  "이메일": {"regex": "[^@\\s]+@[^@\\s]+\\.[a-z]+"}
+}

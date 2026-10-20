@@ -1,0 +1,8 @@
+# 실행 결과물은 저장소에 넣지 않습니다
+output/
+out/
+*.out.csv
+__pycache__/
+*.pyc
+.env
+backup_out/
