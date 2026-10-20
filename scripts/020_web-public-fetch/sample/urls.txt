@@ -1,0 +1,5 @@
+# 로컬 테스트 서버 (README 의 안내대로 먼저 서버를 켜 두세요)
+http://127.0.0.1:8765/index.html
+http://127.0.0.1:8765/about.html
+http://127.0.0.1:8765/private/secret.html
+ftp://example.com/file.txt
