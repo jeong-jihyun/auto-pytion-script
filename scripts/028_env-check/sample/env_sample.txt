@@ -1,0 +1,6 @@
+# 가짜 예시 값입니다 (실제 비밀번호 아님)
+DB_HOST=localhost
+DB_USER=demo
+DB_PASSWORD=
+REPORT_DIR=/tmp/report
+DEBUG=1

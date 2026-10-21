@@ -1,0 +1,6 @@
+[
+  {"name": "종목코드", "start": 1, "length": 6},
+  {"name": "종목명", "start": 7, "length": 12},
+  {"name": "수량", "start": 19, "length": 8},
+  {"name": "단가", "start": 27, "length": 10}
+]

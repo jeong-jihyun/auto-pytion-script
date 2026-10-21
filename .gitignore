@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 .env
 backup_out/
+old_files_out/
+converted_out/
