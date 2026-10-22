@@ -1,0 +1,5 @@
+{
+  "app": {"name": "settle-batch", "timeout": 30, "debug": true},
+  "db": {"host": "dev-db.example.local", "port": 5432, "password": "dev-pass"},
+  "retry": 3
+}
