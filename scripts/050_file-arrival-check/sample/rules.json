@@ -1,0 +1,7 @@
+[
+  {"label": "체결 파일", "pattern": "trade_{date:%Y%m%d}.csv", "min_bytes": 10},
+  {"label": "정산 파일", "pattern": "settle_{date:%Y%m%d}.csv"},
+  {"label": "시세 파일", "pattern": "price_{date:%Y%m%d}.csv", "min_bytes": 50},
+  {"label": "대사 결과 파일", "pattern": "recon_{date:%Y%m%d}.csv"},
+  {"label": "마스터 파일", "pattern": "master.csv", "max_age_hours": 24}
+]
