@@ -1,0 +1,11 @@
+2026-10-24 09:00:01 GET /api/order 200 120ms
+2026-10-24 09:00:02 GET /api/order 200 95ms
+2026-10-24 09:00:03 POST /api/order 500 2300ms
+2026-10-24 09:00:04 GET /api/order?id=7 200 180ms
+2026-10-24 09:00:05 GET /api/price 200 40ms
+2026-10-24 09:00:06 GET /api/price 200 55ms
+2026-10-24 09:00:07 GET /api/price 200 48ms
+2026-10-24 09:00:08 GET /api/report 200 1500ms
+2026-10-24 09:00:09 GET /api/report 200 900ms
+이상한 줄입니다
+2026-10-24 09:00:10 GET /api/report 503 3100ms
