@@ -1,0 +1,7 @@
+2026-10-25 09:00:01 [1520ms] SELECT * FROM orders WHERE customer_id = 1001 AND status = 'OPEN';
+2026-10-25 09:00:05 [1310ms] SELECT * FROM orders WHERE customer_id = 2002 AND status = 'OPEN';
+2026-10-25 09:01:00 [980ms] SELECT * FROM orders WHERE customer_id = 3003 AND status = 'CLOSED';
+2026-10-25 09:02:10 [4200ms] UPDATE stock SET qty = qty - 1 WHERE item_cd IN ('A1','A2','A3');
+2026-10-25 09:03:00 [350ms] SELECT name FROM customer WHERE id = 7
+2026-10-25 09:04:00 [2100ms] SELECT * FROM settle WHERE settle_dt BETWEEN '2026-10-01' AND '2026-10-24'
+# 이 줄은 형식이 달라 건너뜁니다
