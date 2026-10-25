@@ -1,0 +1,24 @@
+2026-10-25 09:00:01 INFO  배치 시작
+2026-10-25 09:00:05 ERROR 주문 처리 실패 id=1001
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "name" is null
+	at com.mycorp.order.OrderService.normalize(OrderService.java:88)
+	at com.mycorp.order.OrderService.process(OrderService.java:42)
+	at org.springframework.batch.core.Step.execute(Step.java:120)
+2026-10-25 09:01:10 ERROR 주문 처리 실패 id=1007
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "name" is null
+	at com.mycorp.order.OrderService.normalize(OrderService.java:88)
+	at com.mycorp.order.OrderService.process(OrderService.java:42)
+2026-10-25 09:02:00 ERROR DB 저장 실패
+org.springframework.dao.DataIntegrityViolationException: could not execute statement
+	at org.springframework.orm.jpa.Translator.translate(Translator.java:10)
+	at com.mycorp.order.OrderRepository.save(OrderRepository.java:21)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1009' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.Driver.execute(Driver.java:5)
+2026-10-25 09:03:00 ERROR 정산 스크립트 오류
+Traceback (most recent call last):
+  File "app/settle.py", line 30, in main
+    run()
+  File "app/settle.py", line 12, in run
+    total = amount / count
+ZeroDivisionError: division by zero
+2026-10-25 09:04:00 INFO  배치 종료
