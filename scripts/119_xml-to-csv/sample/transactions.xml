@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 가짜 예시 거래 내역 -->
+<Statement xmlns="urn:example:stmt" account="111-222-333" date="2026-10-26">
+  <Trade id="T001" type="입금">
+    <Time>09:12:00</Time>
+    <Amount currency="KRW">150000</Amount>
+    <Counterparty><Name>가나상사</Name><Bank>예시은행</Bank></Counterparty>
+    <Memo>10월 대금</Memo>
+  </Trade>
+  <Trade id="T002" type="출금">
+    <Time>11:40:00</Time>
+    <Amount currency="KRW">32000</Amount>
+    <Counterparty><Name>다라문구</Name></Counterparty>
+    <Tag>비품</Tag>
+    <Tag>소모품</Tag>
+  </Trade>
+  <Trade id="T003" type="입금">
+    <Time>15:05:30</Time>
+    <Amount currency="USD">120.50</Amount>
+    <Counterparty><Name>Sample Inc.</Name><Bank>Example Bank</Bank></Counterparty>
+  </Trade>
+</Statement>

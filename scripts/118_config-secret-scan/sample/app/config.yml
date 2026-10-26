@@ -1,0 +1,7 @@
+batch:
+  name: nightly-settlement
+  token: "dummy-token-not-real-0000"
+  retry: 3
+report:
+  ftp_url: "ftp://reporter:NotARealPw9@ftp.example.local/out"
+  client_secret: <넣지 마세요>
