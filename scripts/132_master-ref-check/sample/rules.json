@@ -1,0 +1,5 @@
+{
+  "거래처코드": {"master": "vendor_master.csv", "key": "코드", "status_col": "사용여부", "active": ["Y"],
+                "valid_from": "시작일", "valid_to": "종료일", "date_col": "거래일"},
+  "품목코드": {"master": "item_master.csv", "key": "품목코드", "status_col": "사용", "active": ["Y"]}
+}

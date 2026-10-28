@@ -1,0 +1,9 @@
+{"ts":"2026-10-27T09:00:01","level":"INFO","service":"order","msg":"주문 접수","latency_ms":120,"http":{"status":200}}
+{"ts":"2026-10-27T09:00:03","level":"ERROR","service":"order","code":"DB_TIMEOUT","msg":"DB 응답 지연","latency_ms":3050,"http":{"status":500}}
+{"ts":"2026-10-27T09:00:05","level":"INFO","service":"settle","msg":"정산 시작","latency_ms":80,"http":{"status":200}}
+{"ts":"2026-10-27T09:00:07","level":"WARN","service":"order","code":"RETRY","msg":"재시도","latency_ms":900,"http":{"status":200}}
+{"ts":"2026-10-27T09:00:09","level":"ERROR","service":"settle","code":"AMOUNT_MISMATCH","msg":"금액 불일치","latency_ms":200,"http":{"status":422}}
+{"ts":"2026-10-27T09:00:11","level":"ERROR","service":"order","code":"DB_TIMEOUT","msg":"DB 응답 지연","latency_ms":3300,"http":{"status":500}}
+이 줄은 JSON이 아닙니다
+{"ts":"2026-10-27T09:00:15","level":"INFO","service":"order","msg":"주문 접수","latency_ms":"150","http":{"status":200}}
+{"ts":"2026-10-27T09:00:17","level":"ERROR","service":"auth","code":"TOKEN_EXPIRED","msg":"토큰 만료","http":{"status":401}}
