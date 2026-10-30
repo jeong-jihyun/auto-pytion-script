@@ -8,3 +8,5 @@ __pycache__/
 backup_out/
 old_files_out/
 converted_out/
+*.out.html
+lock_quarantine_out/
