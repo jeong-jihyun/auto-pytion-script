@@ -1,0 +1,9 @@
+고객번호=cust_no
+고객명=cust_name
+우편번호=zip_code
+가입일=join_date
+최근접속=last_login_at
+등급=grade
+누적금액=total_amount
+포인트율=point_rate
+메모=memo
