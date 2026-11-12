@@ -10,3 +10,5 @@ old_files_out/
 converted_out/
 *.out.html
 lock_quarantine_out/
+sample_mac_files/
+*.md.bak

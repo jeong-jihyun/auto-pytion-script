@@ -1,0 +1,10 @@
+{
+  "header.trx_code": {"type": "string", "required": true, "enum": ["ORD", "CXL", "MOD"]},
+  "header.trx_id": {"type": "string", "required": true, "pattern": "T\\d{8}"},
+  "header.sent_at": {"type": "string", "required": true, "pattern": "\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}"},
+  "body.account": {"type": "string", "required": true, "max_len": 12},
+  "body.items[].code": {"type": "string", "required": true},
+  "body.items[].qty": {"type": "integer", "required": true, "min": 1},
+  "body.items[].price": {"type": "number", "min": 0},
+  "body.memo": {"type": ["string", "null"]}
+}

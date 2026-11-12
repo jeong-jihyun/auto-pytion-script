@@ -1,0 +1,3 @@
+{"header": {"trx_code": "BUY", "trx_id": "T123", "sent_at": "2026-11-12 09:00:02"},
+ "body": {"account": "ACC-0002-EXTRA-LONG", "items": [{"code": "A00002", "qty": "5", "price": 410000},
+                                                    {"qty": 0, "price": -1}, {"code": "A00003", "qty": true}], "memo": 3}}

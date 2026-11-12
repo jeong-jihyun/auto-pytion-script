@@ -1,0 +1,2 @@
+{"header": {"trx_code": "ORD", "trx_id": "T00000001", "sent_at": "2026-11-12T09:00:01"},
+ "body": {"account": "ACC-0001", "items": [{"code": "A00001", "qty": 10, "price": 72000}], "memo": null}}
