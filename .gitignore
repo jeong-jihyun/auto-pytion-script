@@ -12,3 +12,4 @@ converted_out/
 lock_quarantine_out/
 sample_mac_files/
 *.md.bak
+retention_trash/

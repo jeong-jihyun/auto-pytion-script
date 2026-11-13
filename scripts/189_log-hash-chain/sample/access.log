@@ -1,0 +1,6 @@
+2026-11-12 09:00:01 INFO  user=u1001 action=LOGIN ip=10.0.0.11
+2026-11-12 09:02:15 INFO  user=u1001 action=VIEW target=정산내역
+2026-11-12 09:05:40 WARN  user=u2002 action=LOGIN_FAIL ip=10.0.0.27
+2026-11-12 09:06:02 INFO  user=u2002 action=LOGIN ip=10.0.0.27
+2026-11-12 09:10:33 INFO  user=u2002 action=EXPORT target=고객목록 rows=120
+2026-11-12 09:15:00 INFO  user=u1001 action=LOGOUT
